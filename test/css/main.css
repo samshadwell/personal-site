@@ -15,7 +15,8 @@ a:hover {
 }
 
 #main-wrapper {
-    margin: auto;
+    margin: 0 auto -4em;
+    min-height: 100%;
     width: 720px;
 }
 
@@ -30,6 +31,12 @@ a:hover {
     font-size: 24px;
     font-weight: 400;
     padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer, .push {
+    height: 4em;
+    text-align: center;
 }
 
 @media (max-width: 720px) and (min-width: 500px) {
@@ -46,6 +53,7 @@ a:hover {
     .body-text {
         font-size: 24px;
         padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -63,5 +71,6 @@ a:hover {
     .body-text {
         font-size: 18px;
         padding-left: 0;
+        padding-right: 0;
     }
 }
