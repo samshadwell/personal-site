@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(255, 254, 242);
+    color: rgb(7, 54, 66);
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: rgb(108, 113, 196);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(203, 75, 22);
+    text-decoration: underline;
+}
+
+#main-wrapper {
+    margin: auto;
+    width: 720px;
+}
+
+#name {
+    font-size: 72px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.body-text {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+@media (max-width: 720px) and (min-width: 500px) {
+    #main-wrapper {
+        width: 500px;
+    }
+
+    #name {
+        font-size: 48px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .body-text {
+        font-size: 24px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 499px) {
+    #main-wrapper {
+        width: auto;
+    }
+
+    #name {
+        font-size: 36px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .body-text {
+        font-size: 18px;
+        padding-left: 0;
+    }
+}
