@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: rgb(255, 254, 242);
     color: rgb(7, 54, 66);
@@ -14,13 +18,13 @@ a:hover {
     text-decoration: underline;
 }
 
-#main-wrapper {
+.main-wrapper {
     margin: 0 auto -4em;
     min-height: 100%;
     width: 720px;
 }
 
-#name {
+.heading {
     font-size: 72px;
     font-weight: 700;
     padding-top: 30px;
@@ -40,11 +44,11 @@ a:hover {
 }
 
 @media (max-width: 720px) and (min-width: 500px) {
-    #main-wrapper {
+    .main-wrapper {
         width: 500px;
     }
 
-    #name {
+    .heading {
         font-size: 48px;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -58,19 +62,19 @@ a:hover {
 }
 
 @media (max-width: 499px) {
-    #main-wrapper {
+    .main-wrapper {
         width: auto;
     }
 
-    #name {
+    .heading {
         font-size: 36px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
     .body-text {
-        font-size: 18px;
-        padding-left: 0;
-        padding-right: 0;
+        font-size: 24px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
