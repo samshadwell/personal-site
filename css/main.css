@@ -5,7 +5,7 @@ html, body {
 body {
     background-color: rgb(255, 254, 242);
     color: rgb(7, 54, 66);
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -25,6 +25,7 @@ a:hover {
 }
 
 .heading {
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 700;
     padding-top: 30px;
@@ -38,7 +39,7 @@ a:hover {
     padding-right: 40px;
 }
 
-.footer, .push {
+footer, .push {
     height: 4em;
     text-align: center;
 }
