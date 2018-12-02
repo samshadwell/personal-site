@@ -55,7 +55,7 @@ a:hover {
     bottom: 0;
     font-size: 20px;
     height: 30px; /* Same as body bottom padding */
-    position:absolute;
+    position: absolute;
     text-align: center;
     width:100%;
 }
