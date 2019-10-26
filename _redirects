@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://sharp-mcnulty-e3cc33.netlify.com/* https://www.samshadwell.com/:splat 301!
