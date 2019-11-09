@@ -1,2 +1,6 @@
 # Redirect default Netlify subdomain to primary domain
 https://sharp-mcnulty-e3cc33.netlify.com/* https://www.samshadwell.com/:splat 301!
+
+# Redirect vanity urls to relevant favorites fragment
+/albums /favorite-things#albums
+/books  /favorite-things#books
